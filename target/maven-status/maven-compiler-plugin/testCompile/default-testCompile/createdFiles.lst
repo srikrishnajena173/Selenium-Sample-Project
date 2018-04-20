@@ -1,0 +1,8 @@
+TestScenario\SignInTest.class
+TestScenario\HotelBookingTest.class
+TestScenario\FlightBookingTest.class
+POM\FlightBookingPage.class
+POM\HotelBookingPage.class
+Generic\BaseClass.class
+POM\SignInPage.class
+Generic\UtilityClass.class

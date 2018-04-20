@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Test"
+           tests="2"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="0.010">
+  <properties />
+            <testcase name="open_a_browser" time="0.000" classname="TestScenario.RunnerClass">
+                <failure type="org.testng.TestNGException"
+                  message="
+Cannot inject @Test annotated Method [open_a_browser] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection"
+              >
+<![CDATA[org.testng.TestNGException: 
+Cannot inject @Test annotated Method [open_a_browser] with [class java.lang.String].
+For more information on native dependency injection please refer to http://testng.org/doc/documentation-main.html#native-dependency-injection
+  org.testng.internal.Parameters.checkParameterTypes(Parameters.java:244)
+  org.testng.internal.Parameters.createParameters(Parameters.java:172)
+  org.testng.internal.Parameters.createParameters(Parameters.java:458)
+  org.testng.internal.Parameters.handleParameters(Parameters.java:568)
+  org.testng.internal.Invoker.handleParameters(Invoker.java:1293)
+  org.testng.internal.Invoker.createParameters(Invoker.java:1020)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1110)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+  org.testng.TestRunner.privateRun(TestRunner.java:756)
+  org.testng.TestRunner.run(TestRunner.java:610)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+  org.testng.TestNG.runSuites(TestNG.java:1133)
+  org.testng.TestNG.run(TestNG.java:1104)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="login_Page" time="0.010" classname="TestScenario.RunnerClass" />
+      
+</testsuite>

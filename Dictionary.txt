@@ -1,0 +1,8 @@
+hashtable
+firefox
+chrome
+datatype
+unicode
+ch
+int
+ve
